@@ -3,8 +3,8 @@ import { Flex,Img, textDecoration } from '@chakra-ui/react'
 
 const About=(props)=> {
   return (
-    <>
-    <Flex flexDir={'column'} marginTop={props.value?'0px':'30px'} marginBottom={'50px'} id='about'>
+
+    <Flex flexDir={'column'} marginTop={'30px'} marginBottom={'50px'} id='about'>
         <Flex flexDir={'column'} width={'100%'} justifyContent={'center'} textAlign={'center'} margin={'50px 0px'}>
             <div className='about_heading'>We Are <span className='remine_india'>Remine India</span></div>
             <div className={props.value?'about_tagline tagline_mobile':'about_tagline'} >Recycling India's e-waste and Li batteries for a <span className='span sustainable'>sustainable</span> future.</div>
@@ -27,13 +27,7 @@ const About=(props)=> {
             </Flex>}
         </Flex>
     </Flex>
-    {/* {props.value && 
-            <Flex className={'about_container_mobile'}>
-                <p className={'about_us about_mobile'}>We are specialized in the <span className='span recycling'>recycling</span>  of e-waste and Li batteries.
-                We are committed to ensure that these materials are disposed of in a safe and sustainable manner, <span className='span reducing'>reducing</span> the environmental impact of electronic waste.<br/><br/>
-                Our team of experts are well-versed in the latest technologies and methods for handling e-waste, and they are dedicated to providing a transparent and responsible recycling process.<br/><br/></p>
-            </Flex>} */}
-    </>
+   
   )
 }
 

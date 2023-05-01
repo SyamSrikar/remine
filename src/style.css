@@ -150,7 +150,6 @@
 .about_container_mobile{
     background-image: url(/public/images/img3.png);
     width: 100%;
-    padding: 0px 5px;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;

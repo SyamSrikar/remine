@@ -17,8 +17,8 @@ const Contact=(props)=> {
                     <div className='details'><EmailIcon width={'35px'} height={'35px'}/><span style={{padding:'20px'}}>director@remine.in</span></div>
                 </Flex>
             </Flex>
-            <Flex width={props.value?'100%':'50%'} flexDir={'column'} padding={'30px'}>
-                <Flex justifyContent={'flex-start'}>
+            <Flex width={props.value?'100%':'50%'} flexDir={'column'} padding={!props.value && '30px'} marginTop={props.value && '30px'}>
+                <Flex justifyContent={'center'}>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13951.45264078263!2d79.6763416!3d29.0506283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a08b264fbb876d%3A0x7c65bace743dcc5!2sRemine%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1682834889151!5m2!1sen!2sin" className={props.value?'map_mobile':'map_desktop'} style={{border:'0'}} zoom="3" allowfullscreen="" loading="lazy" tabindex="0" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </Flex>
             </Flex>

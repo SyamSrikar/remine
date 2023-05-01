@@ -6,7 +6,7 @@ import '../style.css'
 const Nav=(props)=> {
     const[menu,setMenu]=useState(false)
   return (<>
-    <Flex flexDir={'row'} justifyContent={'space-between'} padding={props.val?'20px 30px':'20px 70px'} alignItems={'center'} >
+    <Flex flexDir={'row'} justifyContent={'space-between'} padding={props.val?'20px 30px':'20px 70px'} alignItems={'center'} position={props.value && 'fixed'} top={props.value && '0'} zIndex={'100'} >
         <div className='main_font'>Remine</div>
         {!props.val && <div className={'header_links'}>
             <a href="#about">About Us</a>
