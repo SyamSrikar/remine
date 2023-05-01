@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/remine/static/css/main.24d16f98.css",
+    "main.css": "/remine/static/css/main.72f97d4e.css",
     "main.js": "/remine/static/js/main.a7e8f988.js",
     "static/js/787.b3eca16b.chunk.js": "/remine/static/js/787.b3eca16b.chunk.js",
-    "static/media/img3.png": "/remine/static/media/img3.adfd8a014ecd6820bd50.png",
+    "static/media/img3.png": "/remine/static/media/img3.1ed1e6b08f1a3ecc435a.png",
     "static/media/logo.svg": "/remine/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/remine/index.html",
-    "main.24d16f98.css.map": "/remine/static/css/main.24d16f98.css.map",
+    "main.72f97d4e.css.map": "/remine/static/css/main.72f97d4e.css.map",
     "main.a7e8f988.js.map": "/remine/static/js/main.a7e8f988.js.map",
     "787.b3eca16b.chunk.js.map": "/remine/static/js/787.b3eca16b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24d16f98.css",
+    "static/css/main.72f97d4e.css",
     "static/js/main.a7e8f988.js"
   ]
 }
