@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+.main_font{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.header_links a{
+    text-decoration: none;
+    padding: 0px 30px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.header_links a:nth-child(3){
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.links_mobile_open{
+  position: absolute;
+  margin-top: 84px;
+  transition: all 0.3s ease-in-out;
+  width: 100vw;
+  z-index: 100;
+  height: 85%;
+  text-align: center;
+  background-color: #e6ffff;
+  justify-content: center;
+
+}
+
+.links_mobile_close{
+    display:none;
+}
+.links_mobile_open a{
+    display: block;
+    text-decoration: none;
+    padding: 30px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-top: auto;
+  }
+
+.links_mobile_open a:nth-child(3){
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.home_main_text{
+    font-family: 'Hepta Slab', serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+.home_main_text_mobile{
+    font-size: 10vw;
+}
+
+.home_sub_text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-top: -30px;
+}
+.home_sub_text_mobile{
+    font-size: 8vw;
+    font-weight: 500;
+}
+
+.home_content {
+    margin: auto;
+    width: 65%;
+}
+.home_content_mobile{
+    position: absolute;
+    top: 10%;
+    padding-left: 30px;
+}
+
+.about_heading{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.about_tagline{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.tagline_mobile{
+    padding: 0px 15px;
+}
+.remine_india{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color:#1a75ff;
+}
+
+.about_us{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 40px;
+    width: 80%;
+}
+.about_mobile{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.span{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+}
+.recycling{
+    color:#00802b ;;  
+}
+.reducing{
+    color: red;
+}
+.sustainable{
+    font-size: 1.5rem;
+    color: #1a75ff;
+}
+
+.about_container{
+    width: 50%;
+    padding: 10px 80px 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.about_container_mobile{
+    background-image: url(/public/images/img3.png);
+    width: 100%;
+    padding: 0px 5px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:120%;    
+}
+
+
+input[type="text"] ,input[type="email"],input[type="textarea"],textarea{
+    padding: 10px;
+}
+.contact_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.submit_button{
+    padding:10px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.details_heading ,.details{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.details{
+    font-weight: 400;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.map_mobile{
+    width: 90%;
+    height: 300px;
+}
+.map_desktop{
+    width: 80%;
+    height: 450px;
+}
