@@ -1,4 +1,5 @@
 {
+  "homepage":"https://SyamSrikar.github.io/remine",
   "name": "remine_ind",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^10.12.4",
+    "gh-pages": "^5.0.0",
     "google-map-react": "^2.2.0",
     "node-modules": "^1.0.1",
     "react": "^18.2.0",
@@ -20,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
